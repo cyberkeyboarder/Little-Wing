@@ -225,4 +225,4 @@ Note: a new `".config"` is created at the base project level.
 
 ## Program QSPI
 
-TODO
+TODO - Add description to program/verify QSPI
