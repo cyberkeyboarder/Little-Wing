@@ -4,7 +4,7 @@
 
 The Icicle Kit does not provide (on-board) NAND Flash by default and therefore requires additional hardware, shown here:
 
-![LITTLE WING](imgs/littlewing.png)
+![LITTLE WING](imgs/little-wing.png)
 
 `Little Wing` is an extension board-set, composed of two separate units:
 
