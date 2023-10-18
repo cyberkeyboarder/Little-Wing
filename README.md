@@ -1,4 +1,4 @@
-# **Little Wing**
+# Little Wing
 
 ## This project demonstrates how to boot the Icicle Kit from NAND Flash
 
@@ -23,7 +23,7 @@ The Icicle Kit does not provide (on-board) NAND Flash by default and therefore r
 * [Build Yocto Image](#build-yocto-image)
 * [Build HSS - First Pass](#build-hss---first-pass)
 * [Build HSS - Second Pass](#build-hss---second-pass)
-* [Program QSPI](#program-QSPI)
+* [Program QSPI](#program-qspi)
 
 <!--te-->
 
@@ -111,7 +111,7 @@ HSS is the first stage bootloader for the PolarFire SOC.  It was tested using So
 * (SoftConsole Menu) File->Import
   * Existing Projects into Workspace (Next).
   * Select root directory: ..\hart-software-services-master  
-  * [x] search for nested projects 
+  * [x] search for nested projects
   * [x] Copy projects into workspace
   * Finish
 
@@ -168,13 +168,13 @@ OUTPUT WINDOW in SoftConsole shows ...
  INFO  - Generating bitstream...
  INFO  - Programming the target...
  INFO  - mpfsBootmodeProgrammer completed successfully.
-   text	   data	    bss	    dec	    hex	filename
-  99812	    416	 149632	 249860	  3d004	Default/hss-envm-wrapper.elf
+   text    data    bss     dec     hex filename
+  99812    416     149632  249860  3d004 Default/hss-envm-wrapper.elf
 
  Build Finished. 0 errors, 0 warnings. (took 1m:15s.743ms)
 ```
 
-**The Icicle Kit initial preparation is complete**
+> The Icicle Kit initial preparation is complete
 
 ## Build HSS - Second pass
 
