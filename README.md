@@ -24,6 +24,7 @@ The Icicle Kit does not provide (on-board) NAND Flash by default and therefore r
 * [Build HSS - First Pass](#build-hss---first-pass)
 * [Build HSS - Second Pass](#build-hss---second-pass)
 * [Program QSPI](#program-qspi)
+* [References](#references)
 
 <!--te-->
 
@@ -226,3 +227,8 @@ Note: a new `".config"` is created at the base project level.
 ## Program QSPI
 
 TODO - Add description to program/verify QSPI
+
+## References
+
+* Polarfire Documentation: HOW-TO `Booting-from-qspi`
+<https://github.com/polarfire-soc/polarfire-soc-documentation/blob/master/how-to/booting-from-qspi.md>
